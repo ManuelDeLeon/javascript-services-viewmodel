@@ -6,7 +6,7 @@ A starter project that has/uses:
 * React
 * MVVM
 * WebPack
-* Bootstrap
+* Code Splitting by Component
 * SSR
 * Deferred Loading
 * Lazy Loading
@@ -23,6 +23,4 @@ webpack
 dotnet restore
 dotnet run
 ```
-
-## Screenshots
 
