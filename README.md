@@ -3,10 +3,10 @@
 A starter project that has/uses:
 
 * ASP.NET Core
-* React
-* MVVM
 * WebPack
+* React
 * Code Splitting by Component
+* MVVM
 * SSR
 * Deferred Loading
 * Lazy Loading
@@ -23,4 +23,3 @@ webpack
 dotnet restore
 dotnet run
 ```
-
