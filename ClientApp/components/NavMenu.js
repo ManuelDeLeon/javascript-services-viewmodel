@@ -2,7 +2,7 @@ import { Link } from 'react-router';
 
 NavMenu({
   render(){
-    <div class='main-nav'>
+    <div class='main-nav' style="width: 255px">
         <div class='navbar navbar-inverse'>
         <div class='navbar-header'>
           <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
@@ -11,7 +11,7 @@ NavMenu({
             <span class='icon-bar'></span>
             <span class='icon-bar'></span>
           </button>
-          <Link class='navbar-brand' to={ '/' }>JavaScript Services - ViewModel</Link>
+          <Link class='navbar-brand' to={ '/' }>JS Services - ViewModel</Link>
         </div>
         <div class='clearfix'></div>
         <div class='navbar-collapse collapse'>

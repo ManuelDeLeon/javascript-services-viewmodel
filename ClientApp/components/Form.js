@@ -16,7 +16,8 @@ Form({
     }
   },
   render() {
-    <div>
+    <div class="row">
+      <div class="col-md-4">
       <h1>SSR Form</h1>
       <p>The data of this form comes from the initial render of your app (Server Side Rendered). Check out the page source.</p>
       <form style="max-width: 300px">
@@ -35,7 +36,11 @@ Form({
           </label>
         </div>
         <button b="click: logData" type="button" class="btn btn-default">Log Data</button>
-      </form>
+      </form>     
+      </div>
+      <div class="col-md-8">
+        <img src="Form_1.png" />
+      </div>
     </div>
   }
 })
