@@ -197,8 +197,9 @@ ClientBin/
 orleans.codegen.cs
 
 # Workaround for https://github.com/aspnet/JavaScriptServices/issues/235
-/node_modules/**
-!/node_modules/_placeholder.txt
+#/node_modules/**
+#!/node_modules/_placeholder.txt
+#!/node_modules/babel-plugin-transform-es2015-computed-properties/**
 
 # RIA/Silverlight projects
 Generated_Code/
